@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Riya — Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar">
+    <div class="logo">Riya.dev</div>
+    <div class="menu-toggle">☰</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <header id="home" class="hero">
+    <div class="hero-text">
+      <h1>Hi — I’m Riya</h1>
+      <p>Computer Science student building modern web experiences.</p>
+      <a class="cta" href="#projects">View Projects</a>
+    </div>
+    <div class="hero-illustration">
+      <img src="https://undraw.co/api/illustrations/1f1698a8-4e5d-4bad-b3db-4ec52ffb62a1" alt="Illustration">
+    </div>
+  </header>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="grid">
+      <article class="card">
+        <h3>Landing Page</h3>
+        <p>Responsive landing page with HTML & CSS.</p>
+      </article>
+
+      <article class="card">
+        <h3>To-Do App</h3>
+        <p>Vanilla JS To-Do with LocalStorage and animations.</p>
+      </article>
+
+      <article class="card">
+        <h3>Books API</h3>
+        <p>Node.js + Express REST API for CRUD operations.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <h2>About</h2>
+    <p>I build small full-stack projects and love learning new web technologies.</p>
+  </section>
+
+  <footer class="footer">
+    © 2025 Riya — Built with HTML, CSS & JS.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
