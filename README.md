@@ -1,5 +1,7 @@
 # 📱 Deploy Static Website with GitHub Pages
+
 Author: Riya Rajkumar Vaishya
+
 Date: 20 November 2025
 
 ---
@@ -19,15 +21,22 @@ This site is part of my web development learning journey — experimenting with 
 
 ## 🛠️ Built With
 -HTML5
+
 -CSS3
+
 -JavaScript
+
 -GitHub Pages
 
 ---
 
 ## 🚀 How I Deployed It
 -Created repo: Riya-Vaishya8.github.io
+
 -Added website files
+
 -Pushed changes
+
 -Enabled GitHub Pages (main branch → root)
+
 -Site went live automatically
